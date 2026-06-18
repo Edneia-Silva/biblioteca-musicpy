@@ -7,8 +7,6 @@ O objetivo foi explorar uma aplicação criativa da programação, demonstrando 
 
 O projeto apresenta um gerador automático de melodias, capaz de criar sequências musicais utilizando conceitos básicos de teoria musical e programação.
 
----
-
 ## O que é a MusicPy?
 A MusicPy é uma biblioteca Python desenvolvida para representar conceitos musicais diretamente no código.
 
@@ -22,8 +20,6 @@ Com ela é possível trabalhar com:
 
 A biblioteca oferece uma forma intuitiva de unir programação e música, permitindo que estruturas musicais sejam criadas e manipuladas através de Python.
 
----
-
 ## Objetivo do Projeto
 Demonstrar como a MusicPy pode ser utilizada para:
 1.	Representar elementos musicais em código.
@@ -31,15 +27,11 @@ Demonstrar como a MusicPy pode ser utilizada para:
 3.	Exportar composições para o formato MIDI.
 4.	Explorar a relação entre lógica computacional e criação musical.
 
----
-
 ## Tecnologias Utilizadas
 * Python 3
 * MusicPy
 * Random (biblioteca padrão do Python)
 * OS (biblioteca padrão do Python)
-
----
 
 ## Miniprojeto: Gerador de Melodias
 O projeto gera uma sequência de notas aleatórias utilizando a escala de Dó Maior.
@@ -66,8 +58,6 @@ write(melodia, name='musica.mid')
 
 os.startfile('musica.mid')
 
----
-
 ## Como Funciona
 ````text
 1. Definição da Escala
@@ -91,8 +81,6 @@ os.startfile('musica.mid')
 Abre automaticamente o arquivo gerado.
 ```
 
----
-
 ## Aplicações da MusicPy
 A MusicPy pode ser utilizada em diversas áreas:
 * Educação musical
@@ -103,10 +91,8 @@ A MusicPy pode ser utilizada em diversas áreas:
 * Inteligência Artificial aplicada à música
 * Sistemas de geração procedural de conteúdo
 
----
-
 ## Estrutura do Projeto
-```text
+```
 biblioteca-musicpy/
 │
 ├── melodia.py
@@ -114,8 +100,6 @@ biblioteca-musicpy/
 ├── README.md
 └── requirements.txt
 ```
-
----
 
 ## Instalação
 Clone o repositório:
@@ -130,12 +114,8 @@ pip install musicpy
 Execute o projeto:
 python melodia.py
 
----
-
 ## Considerações Finais
 A MusicPy demonstra que a programação também pode ser utilizada como ferramenta de expressão artística. Por meio dela, conceitos musicais podem ser representados, manipulados e automatizados de forma simples, aproximando duas áreas aparentemente distintas: música e computação.
-
----
 
 ## Autora
 Edneia Silva
