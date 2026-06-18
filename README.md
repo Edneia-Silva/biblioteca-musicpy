@@ -24,20 +24,20 @@ A biblioteca oferece uma forma intuitiva de unir programação e música, permit
 
 ---
 
-## Tecnologias Utilizadas
-* Python 3
-* MusicPy
-* Random (biblioteca padrão do Python)
-* OS (biblioteca padrão do Python)
-
----
-
 ## Objetivo do Projeto
 Demonstrar como a MusicPy pode ser utilizada para:
 1.	Representar elementos musicais em código.
 2.	Gerar melodias automaticamente.
 3.	Exportar composições para o formato MIDI.
 4.	Explorar a relação entre lógica computacional e criação musical.
+
+---
+
+## Tecnologias Utilizadas
+* Python 3
+* MusicPy
+* Random (biblioteca padrão do Python)
+* OS (biblioteca padrão do Python)
 
 ---
 
@@ -69,6 +69,7 @@ os.startfile('musica.mid')
 ---
 
 ## Como Funciona
+````text
 1. Definição da Escala
 notas = ['C5', 'D5', 'E5', 'F5', 'G5', 'A5', 'B5']
 As notas pertencem à escala de Dó Maior, escolhida por sua simplicidade e sonoridade agradável.
@@ -88,6 +89,7 @@ Gera um arquivo MIDI contendo a melodia criada.
 5. Reprodução
 os.startfile('musica.mid')
 Abre automaticamente o arquivo gerado.
+```
 
 ---
 
@@ -104,12 +106,14 @@ A MusicPy pode ser utilizada em diversas áreas:
 ---
 
 ## Estrutura do Projeto
+```text
 biblioteca-musicpy/
 │
 ├── melodia.py
 ├── musica.mid
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
@@ -129,7 +133,7 @@ python melodia.py
 ---
 
 ## Considerações Finais
-A MusicPy demonstra que a programação também pode ser utilizada como ferramenta de expressão artística. Através dela, conceitos musicais podem ser representados, manipulados e automatizados de forma simples, aproximando duas áreas aparentemente distintas: música e computação.
+A MusicPy demonstra que a programação também pode ser utilizada como ferramenta de expressão artística. Por meio dela, conceitos musicais podem ser representados, manipulados e automatizados de forma simples, aproximando duas áreas aparentemente distintas: música e computação.
 
 ---
 
