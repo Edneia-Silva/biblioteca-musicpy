@@ -39,6 +39,7 @@ O projeto gera uma sequência de notas aleatórias utilizando a escala de Dó Ma
 A sequência é transformada em uma melodia pela MusicPy e exportada para um arquivo MIDI que pode ser reproduzido em qualquer software compatível.
 
 # Exemplo Utilizado (Código)
+```
 from musicpy import *
 import random
 import os
@@ -57,9 +58,10 @@ melodia.interval = [0.25] * 20
 write(melodia, name='musica.mid')
 
 os.startfile('musica.mid')
+```
 
 ## Como Funciona
-````text
+```
 1. Definição da Escala
 notas = ['C5', 'D5', 'E5', 'F5', 'G5', 'A5', 'B5']
 As notas pertencem à escala de Dó Maior, escolhida por sua simplicidade e sonoridade agradável.
